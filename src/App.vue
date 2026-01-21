@@ -485,7 +485,7 @@ function scrollToSection(sectionId) {
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
             </svg>
           </a>
-          <a href="https://github.com"
+          <a href="https://github.com/Jamie-Poeffel"
             class="p-4 bg-purple-500/20 border border-purple-500/30 rounded-full text-purple-300 hover:bg-purple-500/30 hover:scale-110 transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -495,7 +495,7 @@ function scrollToSection(sectionId) {
               <path d="M9 18c-4.51 2-5-2-7-2"></path>
             </svg>
           </a>
-          <a href="https://linkedin.com"
+          <a href="https://ch.linkedin.com/in/jamie-poeffel"
             class="p-4 bg-purple-500/20 border border-purple-500/30 rounded-full text-purple-300 hover:bg-purple-500/30 hover:scale-110 transition-all duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
