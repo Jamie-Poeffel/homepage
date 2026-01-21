@@ -197,7 +197,7 @@ function scrollToSection(sectionId) {
 
           <!-- Desktop Menu -->
           <div class="hidden md:flex space-x-8">
-            <button v-for="section in ['about', 'skills', 'projects', 'experience', 'contact']" :key="section"
+            <button v-for="section in ['about', 'skills',  'experience','projects', 'contact']" :key="section"
               @click="scrollToSection(section)" :class="[
                 'relative py-2 text-sm font-medium transition-all duration-300',
                 activeSection === section
@@ -229,7 +229,7 @@ function scrollToSection(sectionId) {
 
         <!-- Mobile Menu -->
         <div v-if="mobileMenuOpen" class="md:hidden pb-4 animate-slide-down">
-          <button v-for="section in ['about', 'skills', 'projects', 'experience', 'contact']" :key="'mobile-' + section"
+          <button v-for="section in ['about', 'skills' ,'experience', 'projects', 'contact']" :key="'mobile-' + section"
             @click="scrollToSection(section)"
             class="block w-full text-left py-3 text-gray-300 hover:text-purple-400 hover:bg-purple-500/10 px-4 rounded-lg transition-colors">
             {{ section.charAt(0).toUpperCase() + section.slice(1) }}
