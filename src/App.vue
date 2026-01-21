@@ -6,24 +6,24 @@ const activeSection = ref('home');
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Built a full-stack e-commerce solution with React, Node.js, and PostgreSQL",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    link: "#",
+    title: "Git commit message Template Tool",
+    description: "Built a commandline Tool in Rust for Git commit templates",
+    tags: ["Rust"],
+    link: "https://github.com/Jamie-Poeffel/gito",
     image: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
   },
   {
-    title: "AI Analytics Dashboard",
-    description: "Real-time analytics platform with machine learning predictions",
-    tags: ["Vue.js", "Python", "TensorFlow", "D3.js"],
-    link: "#",
+    title: "TicTacToe",
+    description: "A offline TicTacToe game that you can play with your friends or against your computer built in C#",
+    tags: ["C#"],
+    link: "https://github.com/Jamie-Poeffel/TicTacToe",
     image: "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
   },
   {
-    title: "Mobile Fitness App",
-    description: "Cross-platform fitness tracking app with social features",
-    tags: ["React Native", "Firebase", "GraphQL", "AWS"],
-    link: "#",
+    title: "Parkour Baar",
+    description: "A Website for a Parkour association built in Nextjs",
+    tags: ["React", "Nextjs", "Typescript"],
+    link: "https://github.com/Jamie-Poeffel/Parkour-Baar",
     image: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
   },
 ];
@@ -37,28 +37,16 @@ const skills = [
   { name: "Python", level: 80, color: "from-blue-500 to-blue-700" },
   { name: "PostgreSQL", level: 75, color: "from-blue-600 to-blue-800" },
   { name: "MongoDB", level: 70, color: "from-green-600 to-green-800" },
-  { name: "AWS", level: 78, color: "from-orange-400 to-orange-600" },
   { name: "Docker", level: 72, color: "from-blue-400 to-cyan-500" },
+  { name: "Rust", level: 35, color: "from-orange-700 to-red-800" },
 ];
 
 const experiences = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    description: "Leading development of cloud-native applications and mentoring junior developers"
-  },
-  {
-    year: "2021 - 2023",
-    role: "Frontend Developer",
-    company: "Digital Solutions LLC",
-    description: "Built responsive web applications and collaborated with UX/UI designers"
-  },
-  {
-    year: "2019 - 2021",
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    description: "Developed and maintained client websites and web applications"
+    role: "Student IMS",
+    company: "FMZ Luzern",
+    description: "IMS student focusing on computer science fundamentals, software development, and practical projects combining school and professional training.",
   }
 ];
 
