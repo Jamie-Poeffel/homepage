@@ -275,56 +275,65 @@ function scrollToSection(sectionId) {
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/30 relative">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-12 text-center slide-up opacity-0 translate-y-8">
-          About <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Me</span>
-        </h2>
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div class="fade-in opacity-0">
-            <div class="relative">
-              <div class="w-full h-96 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-1">
-                <div
-                  class="w-full h-full rounded-2xl bg-slate-900/80 backdrop-blur-sm p-8 flex flex-col justify-center">
-                  <h3 class="text-2xl font-bold text-white mb-4">Passionate Developer</h3>
-                  <p class="text-gray-300 mb-6">
-                    With over 5 years of experience in web development, I specialize in creating
-                    seamless digital experiences that blend creativity with technical excellence.
-                  </p>
-                  <div class="grid grid-cols-2 gap-4">
-                    <div class="text-center p-4 bg-slate-800/50 rounded-lg">
-                      <div class="text-3xl font-bold text-purple-400">50+</div>
-                      <div class="text-gray-400">Projects</div>
-                    </div>
-                    <div class="text-center p-4 bg-slate-800/50 rounded-lg">
-                      <div class="text-3xl font-bold text-purple-400">30+</div>
-                      <div class="text-gray-400">Clients</div>
-                    </div>
-                  </div>
+<!-- About Section -->
+<section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/30 relative">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl font-bold text-white mb-12 text-center slide-up opacity-0 translate-y-8">
+      About <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Me</span>
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <!-- Left card -->
+      <div class="fade-in opacity-0">
+        <div class="relative">
+          <div class="w-full h-96 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-1">
+            <div
+              class="w-full h-full rounded-2xl bg-slate-900/80 backdrop-blur-sm p-8 flex flex-col justify-center">
+              <h3 class="text-2xl font-bold text-white mb-4">Aspiring Backend Developer</h3>
+
+              <p class="text-gray-300 mb-6">
+                I’m an IMS student with a strong interest in software development, especially
+                backend systems and application logic. I enjoy building reliable, efficient
+                software and continuously improving my technical skills.
+              </p>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div class="text-center p-4 bg-slate-800/50 rounded-lg">
+                  <div class="text-3xl font-bold text-purple-400">10+</div>
+                  <div class="text-gray-400">Projects</div>
+                </div>
+                <div class="text-center p-4 bg-slate-800/50 rounded-lg">
+                  <div class="text-3xl font-bold text-purple-400">2023</div>
+                  <div class="text-gray-400">IMS Start</div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="fade-in opacity-0" style="animation-delay: 0.3s">
-            <p class="text-lg text-gray-300 leading-relaxed mb-6">
-              I'm a passionate full stack developer with a love for creating elegant solutions to complex problems.
-              With experience in modern web technologies, I specialize in building responsive, user-friendly
-              applications
-              that make a difference.
-            </p>
-            <p class="text-lg text-gray-300 leading-relaxed mb-6">
-              My approach combines technical expertise with creative problem-solving to deliver high-quality
-              solutions that exceed expectations. I believe in writing clean, maintainable code and staying
-              up-to-date with the latest industry trends.
-            </p>
-            <p class="text-lg text-gray-300 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to
-              open source, or sharing knowledge with the developer community.
-            </p>
-          </div>
         </div>
       </div>
-    </section>
+
+      <!-- Right text -->
+      <div class="fade-in opacity-0" style="animation-delay: 0.3s">
+        <p class="text-lg text-gray-300 leading-relaxed mb-6">
+          I'm an IMS student focusing on computer science and software development, with hands-on
+          experience in building backend-focused applications and tools.
+        </p>
+
+        <p class="text-lg text-gray-300 leading-relaxed mb-6">
+          I mainly enjoy backend development, working with server-side logic, APIs, databases,
+          and languages like Rust, Node.js, and Python, while also having experience with
+          frontend technologies such as React and TypeScript.
+        </p>
+
+        <p class="text-lg text-gray-300 leading-relaxed">
+          When I'm not coding, I like exploring backend architectures, improving existing
+          projects, and learning how scalable and maintainable software systems are built.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Skills Section -->
     <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 relative">
