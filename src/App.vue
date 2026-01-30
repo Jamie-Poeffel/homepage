@@ -43,7 +43,7 @@ const skills = [
 
 const experiences = [
   {
-    year: "2023 – Present",
+    year: "2023 - Present",
     role: "IMS Student",
     company: "FMZ Luzern",
     description: "Computer science education with focus on backend development, APIs, and software architecture."
@@ -256,7 +256,7 @@ function scrollToSection(id) {
 
     <!-- FOOTER -->
     <footer class="py-8 text-center text-gray-500 border-t border-slate-700 fade-in opacity-0">
-      © 2026 Jamie — Built with Vue.js
+      © 2026 Jamie - Built with Vue.js
     </footer>
   </div>
 </template>
